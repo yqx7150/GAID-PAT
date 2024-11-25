@@ -5,30 +5,30 @@ Teng Lian2,#, Yichen Lv1,2,#, Kangjun Guo1, Zilong Li1, Jiahong Li1, Guijun Wang
 
 ## Forward and reverse processes of diffusion model.
 
-<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig1.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig1.png"> </div>
 
 
 ## Training and reconstruction process and network architecture.
 
-<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig2.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig2.png"> </div>
 
 
 
 ## The reconstruction process of the Simulated blood vessels.
 
-<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig3.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig3.png"> </div>
 
 
 
 ## The reconstruction process of the Phantom .
 
-<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig4.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig4.png"> </div>
 
 
 
 ## The reconstruction process of the in vivo data.
 
-<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig5.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig5.png"> </div>
 
 
 ## Other Related Projects
