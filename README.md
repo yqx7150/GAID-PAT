@@ -1,6 +1,6 @@
 # GAID-PAT
 
-Teng Lian, Yichen Lv1, Kangjun Guo, Zilong Li, Jiahong Li, Guijun Wang, Jiabing Lin, Yiyang Cao, Qiegen Liu, Xianlin Song. Generative Artificial Intelligence-Driven Ultra-Sparse Photoacoustic Tomography
+Teng Lian, Yichen Lv, Kangjun Guo, Zilong Li, Jiahong Li, Guijun Wang, Jiabing Lin, Yiyang Cao, Qiegen Liu, Xianlin Song. Generative Artificial Intelligence-Driven Ultra-Sparse Photoacoustic Tomography
 
 
 ## Forward and reverse processes of diffusion model.
