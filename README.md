@@ -1,6 +1,6 @@
 # GAID-PAT
 
-Teng Lian2,#, Yichen Lv1,2,#, Kangjun Guo1, Zilong Li1, Jiahong Li1, Guijun Wang1, Jiabing Lin1, Yiyang Cao1, Qiegen Liu1,*, Xianlin Song1,*. Generative Artificial Intelligence-Driven Ultra-Sparse Photoacoustic Tomography
+Teng Lian, Yichen Lv1, Kangjun Guo, Zilong Li, Jiahong Li, Guijun Wang, Jiabing Lin, Yiyang Cao, Qiegen Liu, Xianlin Song. Generative Artificial Intelligence-Driven Ultra-Sparse Photoacoustic Tomography
 
 
 ## Forward and reverse processes of diffusion model.
@@ -24,11 +24,6 @@ Teng Lian2,#, Yichen Lv1,2,#, Kangjun Guo1, Zilong Li1, Jiahong Li1, Guijun Wang
 
 <div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig4.png"> </div>
 
-
-
-## The reconstruction process of the in vivo data.
-
-<div align="center"><img src="https://github.com/yqx7150/GAID-PAT/blob/main/Fig5.png"> </div>
 
 
 ## Other Related Projects
