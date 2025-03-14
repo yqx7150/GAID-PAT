@@ -1,0 +1,33 @@
+digraph "词法分析状态图" {
+	rankdir=LR
+	START [label="开始"]
+	ID [label="标识符"]
+	DEC [label="十进制"]
+	OCT [label="八进制"]
+	HEX [label="十六进制"]
+	KEY [label="关键字"]
+	OP [label="运算符"]
+	DELIM [label="界符"]
+	END [label="结束"]
+	ERROR [label="错误"]
+	START -> ID [label="字母|_"]
+	ID -> ID [label="字母|数字|_"]
+	START -> DEC [label="数字"]
+	DEC -> DEC [label="数字"]
+	START -> OCT [label=0]
+	OCT -> OCT [label="1-7"]
+	START -> HEX [label="0x"]
+	HEX -> HEX [label="0-9|a-f|A-F"]
+	START -> KEY [label="if|then|else|while|do"]
+	START -> OP [label="+|-|*|/|>|<|=|<=|>="]
+	START -> DELIM [label=";|,"]
+	START -> ERROR [label="其他"]
+	ID -> END
+	DEC -> END
+	OCT -> END
+	HEX -> END
+	KEY -> END
+	OP -> END
+	DELIM -> END
+	ERROR -> END
+}

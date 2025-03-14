@@ -1,0 +1,39 @@
+name: ir-sde
+suffix: ~  # add suffix to saved images
+model: denoising
+distortion: deshadow
+gpu_ids: [0]
+
+sde:
+  max_sigma: 50
+  T: 100
+  schedule: cosine # linear, cosine
+  eps: 0.005
+  
+degradation:
+  # for denoising
+  sigma: 25
+  noise_type: G # Gaussian noise: G
+
+  # for super-resolution
+  scale: 4
+
+datasets:
+  test1:
+    name: Test_Dataset
+    mode: LQGT
+    dataroot_GT: C:\Users\A1941134917\Desktop\project\IR-SDE-Repetition\image-restoration-sde-main\sparse-date\xiaoshu\micefull_test
+    dataroot_LQ: C:\Users\A1941134917\Desktop\xueguan8\test\8
+
+#### network structures
+network_G:
+  which_model_G: ConditionalUNet
+  setting:
+    in_nc: 3
+    out_nc: 3
+    nf: 64
+    depth: 4
+
+#### path
+path:
+  pretrain_model_G: C:\Users\A1941134917\Desktop\project\IR-SDE-Repetition\image-restoration-sde-main\image-restoration-sde-main\codes\config\deshadow\log\ir-sde\models\5000_G.pth
